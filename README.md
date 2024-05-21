@@ -17,6 +17,9 @@ cargo audit
 cargo add actix-web@4
 cargo add tokio@1 --features macros,rt-multi-thread
 
+# expand macros
+cargo +nightly expand
+
 # to use cargo expand
 cargo install cargo-expand
 rustup toolchain install nightly --allow-downgrade
