@@ -17,6 +17,9 @@ cargo audit
 cargo add actix-web@4
 cargo add tokio@1 --features macros,rt-multi-thread
 
+# database
+cargo install --version="~0.7" sqlx-cli --no-default-features --features rustls,postgres
+
 # expand macros
 cargo +nightly expand
 
