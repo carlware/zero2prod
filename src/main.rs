@@ -5,8 +5,6 @@ use zero2prod::configuration::get_configuration;
 
 #[tokio::main]
 async fn main() -> Result<(), std::io::Error> {
-    let c
-
     let configuration = get_configuration()
         .expect("Failed to read configuration.");
 
